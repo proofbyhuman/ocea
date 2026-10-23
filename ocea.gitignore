@@ -1,0 +1,93 @@
+# =========================
+# Secretos, claves y credenciales
+# =========================
+*.pem
+*.key
+*.p12
+*.pfx
+*.secret
+*.credentials
+*_private*
+*_priv*
+*.pkcs12
+
+.env
+.env.*
+config.env
+secrets/
+keys/
+credentials/
+tokens/
+
+# =========================
+# Python / entornos
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+*.manifest
+*.spec
+
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Caches de herramientas
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Datos locales / runtime sensibles
+# =========================
+aspr_vault/
+chain.json
+chain_archive.jsonl
+*.log
+logs/
+local_state/
+runtime/
+dashboard_state.json
+
+# =========================
+# Reportes generados
+# =========================
+reports/generated/*
+!reports/generated/.gitkeep
+
+# =========================
+# Sistema operativo
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Editores
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
